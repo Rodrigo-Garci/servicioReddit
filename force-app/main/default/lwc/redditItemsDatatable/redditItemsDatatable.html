@@ -1,0 +1,13 @@
+<template>
+    <lightning-card title="Reddit Items">
+        <p>render</p>
+        
+        <lightning-datatable
+            key-field="Id"
+            data={data}
+            columns={columns}
+            onrowaction={handleDelete}
+            ></lightning-datatable>
+
+    </lightning-card>
+</template>
